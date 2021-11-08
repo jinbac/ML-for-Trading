@@ -1,0 +1,145 @@
+<pre>--- Summary ---
+Tests passed: 0 out of 4
+
+--- Details ---
+Test #0: failed 
+Test case description: ML4T-220
+Traceback:
+  File "grade_strategy_learner.py", line 145, in test_strategy
+    in_trades_1, in_trades_2, out_trades, train_t, test_t, out_test_t = run_with_timeout(timeoutwrapper_strategylearner,max_time,(),{})
+  File "grading.py", line 122, in run_with_timeout
+    p.start()
+  File "process.py", line 130, in start
+    self._popen = Popen(self)
+  File "forking.py", line 277, in __init__
+    dump(process_obj, to_child, HIGHEST_PROTOCOL)
+  File "forking.py", line 199, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "pickle.py", line 224, in dump
+    self.save(obj)
+  File "pickle.py", line 331, in save
+    self.save_reduce(obj=obj, *rv)
+  File "pickle.py", line 425, in save_reduce
+    save(state)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 655, in save_dict
+    self._batch_setitems(obj.iteritems())
+  File "pickle.py", line 687, in _batch_setitems
+    save(v)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 568, in save_tuple
+    save(element)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 754, in save_global
+    (obj, module, name))
+PicklingError: Can't pickle <function timeoutwrapper_strategylearner at 0x000000000A11A5F8>: it's not found as grade_strategy_learner.timeoutwrapper_strategylearner
+
+Test #1: failed 
+Test case description: AAPL
+Traceback:
+  File "grade_strategy_learner.py", line 145, in test_strategy
+    in_trades_1, in_trades_2, out_trades, train_t, test_t, out_test_t = run_with_timeout(timeoutwrapper_strategylearner,max_time,(),{})
+  File "grading.py", line 122, in run_with_timeout
+    p.start()
+  File "process.py", line 130, in start
+    self._popen = Popen(self)
+  File "forking.py", line 277, in __init__
+    dump(process_obj, to_child, HIGHEST_PROTOCOL)
+  File "forking.py", line 199, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "pickle.py", line 224, in dump
+    self.save(obj)
+  File "pickle.py", line 331, in save
+    self.save_reduce(obj=obj, *rv)
+  File "pickle.py", line 425, in save_reduce
+    save(state)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 655, in save_dict
+    self._batch_setitems(obj.iteritems())
+  File "pickle.py", line 687, in _batch_setitems
+    save(v)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 568, in save_tuple
+    save(element)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 754, in save_global
+    (obj, module, name))
+PicklingError: Can't pickle <function timeoutwrapper_strategylearner at 0x000000000A17AEB8>: it's not found as grade_strategy_learner.timeoutwrapper_strategylearner
+
+Test #2: failed 
+Test case description: SINE_FAST_NOISE
+Traceback:
+  File "grade_strategy_learner.py", line 145, in test_strategy
+    in_trades_1, in_trades_2, out_trades, train_t, test_t, out_test_t = run_with_timeout(timeoutwrapper_strategylearner,max_time,(),{})
+  File "grading.py", line 122, in run_with_timeout
+    p.start()
+  File "process.py", line 130, in start
+    self._popen = Popen(self)
+  File "forking.py", line 277, in __init__
+    dump(process_obj, to_child, HIGHEST_PROTOCOL)
+  File "forking.py", line 199, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "pickle.py", line 224, in dump
+    self.save(obj)
+  File "pickle.py", line 331, in save
+    self.save_reduce(obj=obj, *rv)
+  File "pickle.py", line 425, in save_reduce
+    save(state)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 655, in save_dict
+    self._batch_setitems(obj.iteritems())
+  File "pickle.py", line 687, in _batch_setitems
+    save(v)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 568, in save_tuple
+    save(element)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 754, in save_global
+    (obj, module, name))
+PicklingError: Can't pickle <function timeoutwrapper_strategylearner at 0x000000000A35D048>: it's not found as grade_strategy_learner.timeoutwrapper_strategylearner
+
+Test #3: failed 
+Test case description: UNH - In sample
+Traceback:
+  File "grade_strategy_learner.py", line 145, in test_strategy
+    in_trades_1, in_trades_2, out_trades, train_t, test_t, out_test_t = run_with_timeout(timeoutwrapper_strategylearner,max_time,(),{})
+  File "grading.py", line 122, in run_with_timeout
+    p.start()
+  File "process.py", line 130, in start
+    self._popen = Popen(self)
+  File "forking.py", line 277, in __init__
+    dump(process_obj, to_child, HIGHEST_PROTOCOL)
+  File "forking.py", line 199, in dump
+    ForkingPickler(file, protocol).dump(obj)
+  File "pickle.py", line 224, in dump
+    self.save(obj)
+  File "pickle.py", line 331, in save
+    self.save_reduce(obj=obj, *rv)
+  File "pickle.py", line 425, in save_reduce
+    save(state)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 655, in save_dict
+    self._batch_setitems(obj.iteritems())
+  File "pickle.py", line 687, in _batch_setitems
+    save(v)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 568, in save_tuple
+    save(element)
+  File "pickle.py", line 286, in save
+    f(self, obj) # Call unbound method with explicit self
+  File "pickle.py", line 754, in save_global
+    (obj, module, name))
+PicklingError: Can't pickle <function timeoutwrapper_strategylearner at 0x000000000A35DDD8>: it's not found as grade_strategy_learner.timeoutwrapper_strategylearner
+
+</pre>
